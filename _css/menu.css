@@ -1,0 +1,103 @@
+       @charset "UTF-8";
+        div#interface{
+            width: 1300px; /* delimitar a largura*/
+            background-color:#9be3df; /* cor do container*/
+            margin: 0px auto  0px auto; /*medidas da margem cima/ direita /baixo/ esquerda*/
+            box-shadow: 5px 2px 2px 2px rgba(250,135,138, 0.5); /* sombra envolta do objeto*/
+            padding: 10px 20px 10px 20px; /* posicionar o texto sem estar colado nas bordas*/
+        }
+        header#cabecalho h1{ /*configurando o titulo "Jogo da memória"*/
+            display: block;
+            font-family: Britannic, sans-serif;  /*font e o efeito especial*/
+            font-size: 50pt; /*tamanho letra*/
+            color: #f7898a; /*cor letra*/
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /*sombra no texto*/
+            text-align: center;/*texto centralizado*/
+            border-bottom: 1px solid rgba(250,135,138, 0.8);
+            /*linha em baixo do texto*/
+            position: relative;
+            top: -40px;
+        }
+        header#cabecalho-menu h1 { /*titulo do sua pahina*/
+            display: block;
+            font-family: Arial;
+            font-size: 30pt;
+            color:#f7ae60;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.6); /*sombra no texto*/
+            padding-left: 590px;
+            position: relative;
+            top: -40px;
+        }
+
+        section div#mensagem {
+            font-size: 20pt;
+            color: #22b973;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+            position: relative;
+            left: 380pt;
+            top: -20pt;
+        }
+
+        ul#itens-menu { 
+            display: block;
+            width: 200px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        ul#itens-menu li#opcao {
+            display: inline-block;
+            outline: none;
+            background-size: 100px 200px;background-color:#9be3df;
+            margin-bottom: 20px;
+        }
+        ul#itens-menu li#opcao:hover{
+            opacity: 0.5;
+        }
+        ul#itens-menu li#opcao a#t1{
+            position: relative;
+            left: 15pt;
+        }
+        ul#itens-menu li#opcao a#t2{
+            position: relative;
+            left: 10pt;
+        }
+        ul#itens-menu li#opcao a#t3{
+            position: relative;
+            left: 11pt;
+        }
+        ul#itens-menu li#opcao a#t4{
+            position: relative;
+            left: -9pt;
+        }
+        ul#itens-menu li#opcao a#t5{
+            position: relative;
+            left: 20pt;
+        }
+        ul#itens-menu  li#opcao input#descricao {
+            background-color: #f7ae60;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }  
+        footer#rodape{
+            clear:both; /* que o conteúdo fique fora da configuração*/
+            border-top: 1px solid #fa878a;   
+            padding-top: 15pt;
+        }
+        footer#rodape p{
+            text-align : center;
+            color: #ffe493;
+            text-shadow:  1px 1px 1px rgba(0,0,0,0.5);
+        }
+        footer#rodape a{
+            text-align : center;
+            color: #ffe493;
+            text-decoration: none;
+        }
+        footer#rodape a:hover{ /* faz a letra do menu mudar de cor */
+            color: black;
+            text-decoration: inderline;
+        }

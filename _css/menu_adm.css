@@ -1,0 +1,104 @@
+@charset "UTF-8";
+div#interface{
+    width: 1300px; /* delimitar a largura*/
+    background-color: #9be3df; /* cor do container*/
+    margin: 0px auto  0px auto; /*medidas da margem cima/ direita /baixo/ esquerda*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* sombra envolta do objeto*/
+    padding: 0px 20px 10px 20px; /* posicionar o texto sem estar colado nas bordas*/
+}
+header#cabecalho h1{ /*configurando o titulo "Jogo da memória"*/
+    display: block;
+    font-family: Britannic, sans-serif;  /*font e o efeito especial*/
+    font-size: 50pt; /*tamanho letra*/
+    color: #fa878a;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /*sombra no texto*/
+    margin-bottom: 0px; 
+    text-align: center;/*texto centralizado*/
+    border-bottom: 1px solid rgba(65, 63, 63, 0.6);
+    /*linha em baixo do texto*/
+    position: relative;
+	top: -1px;
+}
+header#cabecalho img {  /*imagem da fecha de voltar*/
+    display: block;
+    padding:  px;
+    position: relative;
+    position: relative;
+    left: 170px;
+    top:5px;
+	padding-top: 15px;
+}
+
+/*[Configurações Individuais]*/
+header#titulo h1{
+    display: block;
+    font-family: Britannic, sans-serif;
+    color: #f7ae60;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    font-size: 33pt;
+    padding-left: 550px;
+}
+div#mensagem{
+    font-size: 20pt;
+    position: relative;
+    left: 350pt;
+    top: -20pt;
+}
+div#mensagem h1{
+    font-family: Arial;
+    font-size: 20pt;
+}
+div#mensagem p{
+    font-family: Arial;
+    font-size: 10pt;
+}
+.menu{
+    margin: 0 auto;
+    padding: 0 40%;
+}
+.opcao1{
+    display: inline-block;
+    outline: none;
+    font-size: 15pt;
+    background-size: 100px 350px;background-color:#f7ae60;
+    color: white;
+    margin-bottom: 40px;
+    padding: 16px 32px;
+}
+.opcao2{
+    display: inline-block;
+    outline: none;
+    font-size: 15pt;
+    background-size: 100px 350px;background-color:#f7ae60;
+    color: white;
+    margin-bottom: 40px;
+    padding: 16px 32px;
+    position: relative;
+    left: 60px;
+}
+.opcao1:hover{
+    opacity: 0.5;
+}
+.opcao2:hover{
+    opacity: 0.5;
+}
+
+/* fim das configurações individuais*/
+footer#rodape{
+    clear:both; /* que o conteúdo fique fora da configuração*/
+    border-top: 1px solid #606060;
+    padding-top: 15pt;
+}
+footer#rodape p{
+    text-align : center;
+    color: #1f8abe;
+}
+footer#rodape a{
+    text-align : center;
+    color: #1f8abe;
+    text-decoration: none;
+}
+footer#rodape a:hover{ /* faz a letra do menu mudar de cor */
+    color: black;
+    text-decoration: inderline;
+}

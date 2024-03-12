@@ -1,0 +1,206 @@
+@charset "UTF-8";
+div#interface{
+    width: 1300px;
+    background-color:#9be3df; 
+    margin: 0px auto  0px auto; 
+    box-shadow: 5px 2px 2px 2px rgba(250,135,138, 0.5); 
+    padding: 0px 20px 10px 20px; 
+}
+header h1#cabecalho{ 
+    font-family: Britannic, sans-serif;  
+    font-size: 50pt;
+    color: #f7898a; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6); 
+    text-align: center;
+    border-bottom: 1px solid rgba(250,135,138, 0.8);
+}
+header input#voltar{
+    font-family: Arial;
+    font-size: 20pt;
+    color:#f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6); 
+}
+header a input#voltar{
+    display: inline-block;
+    outline: none;
+    background-size: 70px 70px;
+    margin-bottom: 20px;
+    background-color: #f7898a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: -118px;
+    left: 170px;
+}
+header a input#voltar:hover{
+    opacity: 0.5;
+}
+header#cabecalho img {
+    display: block;
+    position: relative;
+    left: 170px;
+    top:5px;
+    padding-top: 15px;
+}
+header#cabecalho-lojinha h1 {
+    display: block;
+    font-family: Arial, 35pt;
+    color:#f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6); /*sombra no texto*/
+    padding-left: 220px;
+    position: relative;
+    top: -80px;
+}
+header#cabecalho-lojinha h2 {
+    display: block;
+    font-family: Arial;
+    font-size: 20pt;
+    color: #f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    text-align: right;
+    position: relative;
+	left:-270px;
+	top: -130px;
+}
+header#cabecalho-lojinha p#qtd-dinheiro{
+    display: block;
+    font-family: Arial;
+    font-size:  20pt;
+    text-align: center;  
+	width: 100px;
+	height: 35px;
+    float: right;
+    position: relative;
+	left: -180px;
+    top: -156pt;
+}
+
+section#bonus h2#revelar{
+    color: #f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    position: relative;
+	left: 870px;
+	top: -130px;
+}
+
+section#bonus h2#excluir{
+    color: #f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    position: relative;
+	left: 870px;
+	top: -175px;
+}
+
+section#bonus p#revelar{
+    position: relative;
+	left: 1070px;
+    top: -175px;
+    font-size: 16pt;
+}
+
+section#bonus p#excluir{
+    position: relative;
+	left: 1070px;
+    top: -220px;
+    font-size: 16pt;
+}
+
+
+div#mensagem{
+    font-size: 20pt;
+    position: relative;
+    left: 350pt;
+    top: -140pt;
+}
+div#mensagem h1{
+    font-family: Arial;
+    font-size: 20pt;
+}
+div#mensagem p{
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+.opcao{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20%;
+    position: relative;
+    top: -100pt;
+}
+.formulario{
+    margin-left: 100px;
+    margin-bottom: -70px;
+}
+.text{
+    display: inline;
+    font-family: Arial;
+    font-size: 25pt;
+    color:#f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6); /*sombra no texto*/
+    padding-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.descricao{ 
+    font-family: Arial;
+    font-size: 10pt;
+}
+.valor{
+    display: inline;
+    font-family: Arial;
+    font-size: 15pt;
+    color:#f7ae60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6); /*sombra no texto*/
+    padding-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.display {
+    background-color:#f7ae60;
+    width: 40px;
+    height: 40px;
+    top:5px;
+    font-family: Arial;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+.buttom {
+    background-color: #f7ae60;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 40px;
+}
+.buttom:hover{
+    opacity: 0.5;
+}
+footer#rodape{
+    clear:both; /* que o conteúdo fique fora da configuração*/
+    border-top: 1px solid #fa878a;   
+    padding-top: 15px;
+}
+footer#rodape p{
+    text-align : center;
+    color: #ffe493;
+    text-shadow:  1px 1px 1px rgba(0,0,0,0.5);
+}
+footer#rodape a{
+    text-align : center;
+    color: #ffe493;
+    text-decoration: none;
+}
+footer#rodape a:hover{ /* faz a letra do menu mudar de cor */
+    color: black;
+    text-decoration: inderline;
+}
